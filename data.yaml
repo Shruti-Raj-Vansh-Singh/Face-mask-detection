@@ -1,0 +1,5 @@
+train: facemask/train
+val: facemask/valid
+
+nc: 3
+names: ['not proper','mask', 'no mask']
