@@ -6,5 +6,10 @@ For this we will be using YOLOv5, ie, You Only Look Once algo. It is an object d
 
 
 What we need to do is to train our model on our own dataset. One of the biggest task here is to prepare our data for YOLOv5, ie, in the darknet format. For that each image should have a corrersponding .txt file that has the following information
+
 (object class) (x) (y) (width) (height)
 where x and y are the coordinates of the center of the bounding box.
+
+For this i used https://roboflow.com/ where we easily change annotations.
+
+NOTE: You need to generate a data.yaml file.
